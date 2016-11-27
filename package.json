@@ -4,7 +4,7 @@
   "description": "Custom Login System",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "meteor run"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/rockchalkwushock/meteor-tutorial-five/issues"
   },
-  "homepage": "https://github.com/rockchalkwushock/meteor-tutorial-five#readme"
+  "homepage": "https://github.com/rockchalkwushock/meteor-tutorial-five#readme",
+  "dependencies": {
+    "babel-runtime": "^6.18.0",
+    "bcrypt": "^0.8.7",
+    "meteor-node-stubs": "^0.2.4"
+  }
 }
